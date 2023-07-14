@@ -14,5 +14,5 @@ class CategorySerializer(serializers.ModelSerializer):
             repr['children'] = CategorySerializer(
                 children, many=True
             ).data
-        repr['ferrari'] = 'fan'
+        repr['i am '] = 'stupid'
         return repr
